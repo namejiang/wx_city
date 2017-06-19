@@ -1,0 +1,10 @@
+<!-- 模板引用 -->
+<import src="../../city/city.wxml"/>
+<view>
+    <input type="text" value='{{province}}-{{city}}-{{area}}' focus="{{focus}}" bindfocus="open"/>
+</view>
+<picker bindchange="timeChange" mode="date" start="1999-01-01" end="2050-12-01" > 
+    <input type="text" class="picker" disabled placeholder="截止时间"/>
+</picker>
+<!-- 城市选择 -->
+<template is="city" data="{{cityKey,iscity,isp,isc,isa,provinces,citys,countys}}"></template> 

@@ -1,0 +1,14 @@
+{
+
+  "pages": [
+    "pages/index/index"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5394d4",
+    "navigationBarTitleText": "三级城市联动",
+    "navigationBarTextStyle": "#fff000"
+  }
+
+}
